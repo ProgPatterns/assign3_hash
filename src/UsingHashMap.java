@@ -13,7 +13,7 @@ public class UsingHashMap {
         }
 
         listWords.forEach((word, countWords) ->
-                        System.out.println(word + " " + countWords)
+                        System.out.println("word: " + word + ", counted: " + countWords + "x")
                 );
     }
 }
